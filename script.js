@@ -1,7 +1,5 @@
 'use strict';
-
-var canvas = document.getElementsByTagName('canvas')[0];
-
+console.log("Ken")
 canvas.width = canvas.clientWidth;
 canvas.height = canvas.clientHeight;
 
