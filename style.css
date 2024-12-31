@@ -1,0 +1,230 @@
+html,
+body {
+    color: #fefeff;
+}
+
+body {
+    margin: 0;
+}
+
+canvas {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+a {
+    color: inherit;
+    text-decoration: none !important;
+}
+
+/* Center content */
+.center {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadein 3s;
+    z-index: 10;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+a:hover {
+    cursor: url("https://nafriklopper.club/cursor_hover.curl") !important;
+}
+
+.owners {
+    background: linear-gradient(135deg, #ff8a00, #e52e71);
+    border: 2px solid white;
+    padding: 20px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+.founders {
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+   
+}
+
+.founder h3 {
+    cursor: pointer;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.founder h3:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
+}
+
+.details {
+    /* display: none; */
+    padding-top: 20px;
+}
+
+.detail-info {
+    display: none;
+    background-color: #e75d5d;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    max-width: 600px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+}
+
+.founder-name {
+    font-size: 2em;
+    color: #ffb700;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.founder-image {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 4px solid #ffb700;
+    max-width: 150px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.personality {
+    margin: 20px 0;
+}
+
+.personality p {
+    font-size: 18px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* Main joinup container */
+/* Header Section - Welcome Message */
+.joinup-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.joinup {
+    background: linear-gradient(135deg, #ff8a00, #e52e71);
+    padding: 40px 20px;
+    border-radius: 15px;
+    margin: 20px auto;
+    max-width: 900px;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+/* Content inside the joinup */
+.joinup-content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Title Styling */
+.joinup h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Paragraph Styling */
+.joinup p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+/* Benefits Section */
+.joinup-benefits {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+/* Individual Benefit Box */
+.benefit {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    margin: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.benefit:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.benefit img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.benefit h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.benefit p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+/* Call to Action Section */
+.call-to-action {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Join Now Button */
+.join-btn {
+    background-color: #ff6a00;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+}
+
+.join-btn:hover {
+    background-color: #e52e71;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.join-btn:focus {
+    outline: none;
+}
